@@ -1,0 +1,1 @@
+package com.example.qedem.util; import java.util.Base64; public class Bytes{ public static String b64(byte[] b){return Base64.getEncoder().encodeToString(b);} public static byte[] deb64(String s){return Base64.getDecoder().decode(s);} }
